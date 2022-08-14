@@ -16,16 +16,13 @@ export default function About() {
 			<h1 className="component--title">Projects</h1>	
 			<div className="component--content">
 				<div>
-					<span className="icon"><FontAwesomeIcon icon={faHtml5} /></span>
-					HTML 5
+					<a href="https://github.com/erika-yz/tenzies.git">Tenzies</a>
 				</div>
 				<div >
-					<span className="icon"><FontAwesomeIcon icon={faCss3} /></span>
-					CSS 3
+					<a href="https://github.com/erika-yz/quizzical.git">Quizzical</a>
 				</div>
 				<div >
-					<span className="icon"><FontAwesomeIcon icon={faJs} /></span>
-					JavaScript
+					<a href="https://github.com/erika-yz/travel_journal.git">Travel Journal</a>
 				</div>
 				<div >
 					<span className="icon"><FontAwesomeIcon icon={faDatabase} /></span>
