@@ -24,27 +24,6 @@ export default function About() {
 				<div >
 					<a href="https://github.com/erika-yz/travel_journal.git">Travel Journal</a>
 				</div>
-				<div >
-					<span className="icon"><FontAwesomeIcon icon={faDatabase} /></span>
-					MySQL
-				</div>
-				<div>
-					<span className="icon"><FontAwesomeIcon icon={faCodeBranch} /></span>
-					Git
-				</div>
-				<div >
-					<span className="icon"><FontAwesomeIcon icon={faPhp} /></span>
-					PHP
-				</div>
-				<div className="icon">jQuery</div>
-				<div >
-					<span className="icon"><FontAwesomeIcon icon={faReact} /></span>
-					React
-				</div>
-				<div >
-					<span className="icon"><FontAwesomeIcon icon={faBootstrap} /></span>
-					Bootstrap
-				</div>
 			</div>
 		</div>
 	);
