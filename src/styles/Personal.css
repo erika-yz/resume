@@ -1,0 +1,35 @@
+.name {
+    font-weight: 400;
+    font-size: 25px;
+    color: #CECACA;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.surname {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 1px;
+    color: #FFFFFF;
+}
+
+.contact {
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+
+    color: #fff;
+    font-family: 'Calibri';
+    font-size: 15px;
+}
+
+.contact>span {
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact {
+        font-size: 10px;
+    }
+}

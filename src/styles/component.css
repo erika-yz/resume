@@ -1,0 +1,87 @@
+.component {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 20px;
+    padding:5px;
+}
+
+.component--title {
+
+    padding: 5px 20px 5px 20px;
+    width:90%;
+    background: #545454;
+    border-radius: 5px;
+
+    color: #fff;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.component--content {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.component--information{
+    width:90%;
+}
+
+.component--content>div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon {
+    color: gray;
+    font-size: 2rem;
+}
+
+
+.title {
+    font-family: 'Calibri';
+    font-weight: 700;
+    font-size: 15px;
+    color: #343434;
+
+}
+
+.company {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #343434;
+    line-height: 1px;
+
+}
+
+.year {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #73808D;
+    line-height: 1px;
+}
+
+li{
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    color: #73808D;
+
+}
