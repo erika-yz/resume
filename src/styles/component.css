@@ -85,3 +85,12 @@ li{
     color: #73808D;
 
 }
+
+a{
+    text-decoration: none;
+    color:rgba(3, 56, 244, 0.71);
+}
+
+a:visited{
+    color: purple;
+}

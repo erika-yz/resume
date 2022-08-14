@@ -16,13 +16,13 @@ export default function About() {
 			<h1 className="component--title">Projects</h1>	
 			<div className="component--content">
 				<div>
-					<a href="https://github.com/erika-yz/tenzies.git">Tenzies</a>
+					<a href="https://github.com/erika-yz/tenzies.git" target="_blank">Tenzies</a>
 				</div>
 				<div >
-					<a href="https://github.com/erika-yz/quizzical.git">Quizzical</a>
+					<a href="https://github.com/erika-yz/quizzical.git" target="_blank">Quizzical</a>
 				</div>
 				<div >
-					<a href="https://github.com/erika-yz/travel_journal.git">Travel Journal</a>
+					<a href="https://github.com/erika-yz/travel_journal.git" target="_blank">Travel Journal</a>
 				</div>
 			</div>
 		</div>
